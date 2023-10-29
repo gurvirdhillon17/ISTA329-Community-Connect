@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; /* Pale off-white for the body background */
+}
+
+header {
+    background-color: #FF685D; /* Warm coral-red for the header */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 0.5em;
+}
+
+.hero {
+    background-color: #FF685D; /* Warm coral-red for the hero section */
+    text-align: center;
+    padding: 2em 0;
+}
+
+.info, .actions, .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 10%;
+}
+
+.card, .action-card, .contact-card {
+    background-color: #3A7CA5; /* Balanced medium blue for the cards */
+    color: #FFF5E1; /* Pale off-white for the card text */
+    padding: 1em;
+    flex: 1;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.action-card {
+    background-color: #FF685D; /* Warm coral-red for the action card for a bit of differentiation */
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: #FF685D; /* Warm coral-red for the button */
+    color: #FFF5E1; /* Pale off-white for the button text */
+    border: none;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 20%; 
+    display: block;
+    margin: 0 auto; 
+}
+
+nav a {
+    background-color: #3A7CA5; /* Balanced medium blue for the navigation buttons */
+    padding: 0.5em 1em;
+    color: #FFF5E1; /* Pale off-white for the button text */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Give a slight rounded edge to the buttons */
+    transition: background-color 0.3s ease; /* Transition effect for hover state */
+}
+
+nav a:hover {
+    background-color: #2A6C95; /* Slightly darker blue for hover effect */
+}
